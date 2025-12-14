@@ -13,7 +13,7 @@ In this project, SMS messages are analyzed, processed, and classified based on t
 
 * Text preprocessing and cleaning
 * Feature extraction using vectorization techniques
-* Spam classification using **Linear Regression**
+* Spam classification using **Logistic Regression**
 * Performance evaluation on test data
 
 ---
@@ -69,10 +69,7 @@ Text messages are converted into numerical form using **vectorization** techniqu
 
 ### 4️⃣ Model Training
 
-* A **Linear Regression** model is trained on the vectorized text
-* The continuous output is converted to class labels using a threshold (e.g., 0.5)
-
-> ⚠️ Note: Linear Regression is not typically used for classification, but it is used here for learning and demonstration purposes.
+* A **Logistic Regression** model is trained on the vectorized text
 
 ### 5️⃣ Model Evaluation
 
